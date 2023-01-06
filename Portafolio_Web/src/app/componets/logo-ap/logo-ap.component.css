@@ -8,7 +8,7 @@
     
   }
 #logoAP{
-width: 150px;
+    width: 150px;
 }
 img{
     width: 50px; 
@@ -18,14 +18,16 @@ img{
     border-width: medium;
 }
  /*---pantalla de celu---*/
-.container{
+ @media (max-width:575px) {
+    .container{
     flex-direction: column;
 }
-.redes{
+    .redes{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.redes img{
+    }
+    .redes{
     margin: 0.5em;
-}
+    }
+ }
